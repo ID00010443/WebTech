@@ -20,7 +20,7 @@ Third step - download the file from GitHub repo
 [url] https://github.com/00010443/WebTech.git
 
 Fourth step - visit the website on Glitch
-[url]
+[https://shard-pond-beryl.glitch.me/]
 
 # Dependencies
 
