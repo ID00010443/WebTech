@@ -1,0 +1,13 @@
+extends layout
+
+block layout-content
+  div.View.UserView
+    h1.Banner Hello, #{userProfile.nickname}!
+    div.Message
+      div.Title
+        h3 The best offers are only for you!
+        h1 This is your profile
+      pre.Details=JSON.stringify(userProfile, null, 2)
+    div.NavButtons
+      a(href="/logout")
+        div.NavButton Log out
